@@ -115,3 +115,8 @@ using namespace REL::literals;
 
 // DKUtil
 #include "DKUtil/Logger.hpp"
+
+using EventResult = RE::BSEventNotifyControl;
+using ScriptObjectPtr = RE::BSTSmartPointer<RE::BSScript::Object>;
+using ScriptArrayPtr = RE::BSTSmartPointer<RE::BSScript::Array>;
+using ScriptCallbackPtr = RE::BSTSmartPointer<RE::BSScript::IStackCallbackFunctor>;
